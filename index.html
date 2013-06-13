@@ -6,35 +6,59 @@
     <meta name="author" content="Bodo Kaiser" />
     <meta name="keywords" content=".........." />
     <meta name="description" content="........" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.css" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
   </head>
   <body>
 
-    <nav>
-      <a class="brand">Longvity</a>
-      <ul>
-        <li><a href="#home">home</a></li>
-        <li><a href="#service">service</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+            <a class="brand">Longvity</a>
+            <ul class="nav pull-right">
+              <li><a href="#home">home</a></li>
+              <li><a href="#service">service</a></li>
+              <li><a href="#contact">contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
-    
-    <section id="home">
-      <div class="inner">
-        <h3>home</h3>
-      </div>
-    </section>
-    
-    <section id="service">
-      <div class="inner">
-        <h3>service</h3>
-      </div>
-    </section>
-    
-    <section id="contact">
-      <div class="inner">
-        <h3>contact</h3>
-      </div>
-    </section>
+
+    <div class="container">
+      <section id="home" class="row">
+        <h3 class="text-right">home</h3>
+        <div class="inner">
+          <h4>Longvity</h4>
+        </div>
+      </section>
+      <section id="service" class="row">
+        <h3 class="text-right">service</h3>
+        <div class="inner">
+        </div>
+      </section>
+      <section id="contact" class="row">
+        <h3 class="text-right">contact</h3>
+        <div class="inner span4 offset4">
+          <address>
+            <strong>Longvity</strong>
+            <br />
+            Geiserichstraße 3
+            <br />
+            12105 Berlin
+          </address>
+          <address>
+            <strong>Sabine Kaiser</strong>
+            <br />
+            <abbr title="Mobile">Mob.:</abbr> 016283783
+            <br />
+            <abbr title="Telephone">Tel.:</abbr> 030847484
+            <br />
+            Email: <a href="mailto:info@longvity.com">info@longvity.com</a>
+        </div>
+      </section>
+    </div>
 
   </body>
 </html>
