@@ -26,11 +26,15 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container top-offset">
       <section id="home" class="row">
         <h3 class="text-right">home</h3>
         <div class="inner">
-          <h4>Longvity</h4>
+          <img class="signet" src="images/signet.jpg" />
+          <p class="text-center span8 offset2 lead">
+            Resolve your power by improving your vitality by using traditional
+            proven techniques from the old chinese.
+          </p>
         </div>
       </section>
       <section id="service" class="row">
@@ -40,7 +44,7 @@
       </section>
       <section id="contact" class="row">
         <h3 class="text-right">contact</h3>
-        <div class="inner span4 offset4">
+        <div class="span4">
           <address>
             <strong>Longvity</strong>
             <br />
@@ -56,9 +60,19 @@
             <abbr title="Telephone">Tel.:</abbr> 030847484
             <br />
             Email: <a href="mailto:info@longvity.com">info@longvity.com</a>
+          </address>
+        </div>
+        <div class="span8">
+          <div class="map"></div>
         </div>
       </section>
     </div>
 
+    <script src="http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyApg5N4vyhUn397aZ643_9bfpnHV3xxnjI&sensor=false&region=DE"></script>
+    <script>
+      new google.maps.Map(document.querySelector('div.map'), {
+        zoom: 4, center: new google.maps.LatLng(52.45032, 13.36912)
+      });
+    </script>
   </body>
 </html>

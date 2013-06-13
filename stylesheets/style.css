@@ -1,0 +1,13 @@
+.top-offset {
+    margin-top: 100px;    
+}
+
+img.signet {
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}
+
+div.map {
+    height: 400px;
+}
