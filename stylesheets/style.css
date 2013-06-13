@@ -11,3 +11,8 @@ img.signet {
 div.map {
     height: 400px;
 }
+
+div.column {
+    display: block;
+    height: 420px;
+}
