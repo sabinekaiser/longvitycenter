@@ -94,9 +94,12 @@
     </div>
     <script src="http://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyApg5N4vyhUn397aZ643_9bfpnHV3xxnjI&sensor=false&region=DE"></script>
     <script>
-      new google.maps.Map(document.querySelector('div.map'), {
-        zoom: 17, center: new google.maps.LatLng(52.45032, 13.36912),
-        mapTypeId: google.maps.MapTypeId.ROADMAP
+      var xy = new google.maps.LatLng(52.45032, 13.36912);
+      var map = new google.maps.Map(document.querySelector('div.map'), {
+        zoom: 17, center: xy, mapTypeId: google.maps.MapTypeId.ROADMAP
+      });
+      var marker = new google.maps.Marker({
+        map: map, position: xy, title: 'LongvityCenter'
       });
     </script>
   </body>
