@@ -18,10 +18,6 @@ img.brand {
     padding: 0;
 }
 
-div.column p {
-    text-align: justify;
-}
-
 nav.navbar-inner {
     border: none !important;
     background: none !important;
@@ -30,11 +26,15 @@ nav.navbar-inner {
 
 ul.nav li a {
     padding: 18px 28px;
-    color: #666 !important;
+    color: #555 !important;
     font-size: 18px !important;
     text-shadow: none !important;
 }
 
 section {
     padding-bottom: 200px;
+}
+
+section div.span4 p {
+    text-align: justify;
 }
