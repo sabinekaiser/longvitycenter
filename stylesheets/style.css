@@ -1,4 +1,4 @@
-.top-offset {
+div.container {
     margin-top: 100px;    
 }
 
@@ -22,15 +22,17 @@ div.column p {
     text-align: justify;
 }
 
-nav {
-    padding: 12px 0;
-    border-bottom: 1px solid #111;
-    background: rgba(255, 255, 255, 0.6);
-    box-shadow: 1px 1px 15px #999;
+nav.navbar-inner {
+    border: none !important;
+    background: none !important;
+    box-shadow: none !important;
 }
 
-nav ul > li > a {
-    -webkit-transition: all 0.6s;
+ul.nav li a {
+    padding: 18px 28px;
+    color: #666 !important;
+    font-size: 18px !important;
+    text-shadow: none !important;
 }
 
 section {
