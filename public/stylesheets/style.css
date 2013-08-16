@@ -3,12 +3,16 @@
     margin-bottom: 60px;
 }
 
+#logo {
+
+}
+
 .pull-down {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .fill {
-    padding-bottom: 200px;
+    padding-bottom: 80px;
 }
 
 .text-justify {

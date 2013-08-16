@@ -12,7 +12,7 @@
   <script>
     var latlng = new google.maps.LatLng(52.45032, 13.36912);
     var map = new google.maps.Map(document.querySelector('#map'), {
-      zoom: 17, center: latlng, mapTypeId: google.maps.MapTypeId.ROADMAP
+      zoom: 15, center: latlng, mapTypeId: google.maps.MapTypeId.ROADMAP
     });
     var marker = new google.maps.Marker({
       map: map, position: latlng, title: 'LongvityCenter'

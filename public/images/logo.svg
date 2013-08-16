@@ -26,7 +26,15 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs3111" />
+     id="defs3111">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 114.49951 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="761.46527 : 114.49951 : 1"
+       inkscape:persp3d-origin="380.73264 : 76.333008 : 1"
+       id="perspective3061" />
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -36,17 +44,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1365"
-     inkscape:window-height="671"
+     inkscape:window-width="1398"
+     inkscape:window-height="840"
      id="namedview3109"
      showgrid="false"
      fit-margin-left="20"
      fit-margin-right="20"
      fit-margin-bottom="20"
      fit-margin-top="20"
-     inkscape:zoom="0.92655371"
-     inkscape:cx="362.90869"
-     inkscape:cy="114.87305"
+     inkscape:zoom="0.64"
+     inkscape:cx="87.46703"
+     inkscape:cy="112.82745"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -72,7 +80,7 @@
   </g>
   <g
      id="surface4"
-     transform="translate(6.5800512,-50.324099)">
+     transform="translate(-7.2145017,-75.924099)">
     <text
        style="font-size:44px;fill:#006666;font-family:Helvetica"
        font-size="44"
@@ -80,8 +88,24 @@
        x="152.10001"
        y="179.45004">
       <tspan
-         style="font-size:56px"
-         id="tspan3115">Longvity® Center</tspan>
+         id="tspan3115"
+         style="font-size:56px">Longvity<tspan
+   id="tspan3835"
+   style="font-size:52.00000035%;baseline-shift:super">®</tspan>
+
+ Center</tspan>
     </text>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     x="172.08737"
+     y="147.00978"
+     id="text3063"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3065"
+       x="172.08737"
+       y="147.00978"
+       style="font-size:27.20000076px;fill:#006666;font-family:Helvetica;-inkscape-font-specification:Helvetica">2000 Jahre Kultur des Heilens</tspan></text>
 </svg>
