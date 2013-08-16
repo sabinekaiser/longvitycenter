@@ -1,27 +1,35 @@
 {
-
+    
     "name": "longvity",
- 
+    
     "version": "0.0.0",
-  
-    "description": "homepage for longvity",
-  
+    
     "author": "Bodo Kaiser <i@bodokaiser.io>",
-  
-    "main": "server.js",
-
-    "dependencies": {
-        "express": "3.3.4",
-        "swig": "1.0.0-pre1"
+    
+    "description": "homepage for longvity",
+    
+    "subdomain": "longvity",
+    
+    "engines": {
+        "node":"0.10.x"
     },
-
+    
+    "dependencies": {
+        "express":"3.3.4",
+        "swig":"1.0.0-pre1"
+    },
+    
     "repository": {
         "type": "git",
         "url": "git://github.com/bodokaiser/longvity.git"
     },
-  
+    
     "bugs": {
         "url": "https://github.com/bodokaiser/longvity/issues"
+    },
+    
+    "scripts":{ 
+        "start": "node server.js"
     }
-
+        
 }
