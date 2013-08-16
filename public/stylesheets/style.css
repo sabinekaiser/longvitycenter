@@ -1,44 +1,16 @@
-h3 {
-    font-size: 24px;
+#map {
+    height: 500px;
+    margin-bottom: 60px;
 }
 
-div.container {
-    margin-top: 100px;    
+.pull-down {
+    margin-top: 100px;
 }
 
-img.signet {
-    display: block;
-    width: 800px;
-    margin: 0 auto;
-}
-
-div.map {
-    height: 400px;
-}
-
-img.brand {
-    width: 200px;
-    margin: 0;
-    padding: 0;
-}
-
-nav.navbar-inner {
-    border: none !important;
-    background: none !important;
-    box-shadow: none !important;
-}
-
-ul.nav li a {
-    padding: 18px 28px;
-    color: #555 !important;
-    font-size: 18px !important;
-    text-shadow: none !important;
-}
-
-section {
+.fill {
     padding-bottom: 200px;
 }
 
-section div.span4 p {
+.text-justify {
     text-align: justify;
 }
