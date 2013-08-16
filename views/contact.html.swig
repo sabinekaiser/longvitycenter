@@ -26,8 +26,8 @@
       {{ contact.address.street }}
       {{ contact.address.streetNr }}
       <br />
-      {{ contact.zipcode }}
-      {{ contact.city }}
+      {{ contact.address.zipcode }}
+      {{ contact.address.city }}
     </address>
   </div>
   <div class="col-lg-10">

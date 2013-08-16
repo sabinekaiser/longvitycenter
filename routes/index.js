@@ -1,8 +1,8 @@
+var util = require('util');
 var fs   = require('fs');
-var path = require('path');
 
 module.exports = function(app) {
-    
+
     app.all('/', function(req, res) {
         res.render('index', loadTrans('en'));
     });
@@ -14,7 +14,10 @@ module.exports = function(app) {
 };
 
 function loadTrans(lang) {
-    var buf = fs.readFileSync(__dirname + '/../trans/' + lang + '.json');
+    var path = util.format(__dirname + '/../trans/%s.json', lang);
 
-    return JSON.parse(buf.toString());
+    var buf = fs.readFileSync(path);
+    var str = buf.toString();
+
+    return JSON.parse(str);
 }
