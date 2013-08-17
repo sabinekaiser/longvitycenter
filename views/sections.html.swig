@@ -24,7 +24,7 @@
       - these are just examples - are worth being revised through our holistic 
       diagnostic scheme and treatment concepts. To meet complicated health 
       conditions and their demands we developed our 
-      Longvity-Case-Management-System.
+      Longvity-Case-Management-System. Call us for an appointment.
       {% endif %}
     </p>
   </div>
@@ -59,8 +59,8 @@
       main focus called "Golden Eyes". We are convinced that the knowledge of 
       the Traditional Chinese Medicine regarding the inner nourishment of the 
       eyes is very useful in creating suitable therapy concepts. If you are 
-      suffering from serious eye-diseases we can offer a complementary 
-      treatment procedure for regenerating your eyes by natural health sources.
+      suffering from erious eye-diseases we can offer a complementary 
+      treatment course.
       {% endif %}
     </p>
   </div>
@@ -76,7 +76,7 @@
       {% if language == 'de' %}
       Burn out ist das Ergebnis eines andauernden physischen und/oder 
       psychologischen Exzesses. Fast unmerklich hat alles angefangen und sich 
-      auf ein unmenschliches Leistungsniveau eingespielt. Viele Menschen sind 
+      auf ein "unmenschliches" Leistungsniveau eingespielt. Viele Menschen sind 
       davon betroffen – auch junge. Der Status chronischer Verausgabung 
       präsentiert sich oft in Schlafstörungen, depressiver Verstimmung und 
       einem fast stereotypen, emotionslosen Funktionieren. Um hier Abhilfe zu 
@@ -86,7 +86,7 @@
       {% else %}
       A burn out is the result of a prolonged physical and or psychological 
       strain. Many people - even young ones - succomb to it. This states of 
-      over-excetion manifests itself, for example, in a disturbed sleep, a 
+      over-excertion manifests itself, for example, in a disturbed sleep, a 
       depressed mood with a lack of emotions and just sterotyped functioning. 
       To combat this excess we developed efficient strategies which help to 
       recover one`s physical and mental balance. Enjoy this form of 
