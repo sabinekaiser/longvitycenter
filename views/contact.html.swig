@@ -9,13 +9,13 @@
       <br />
       {{ contact.profession }}
       <br />
-      {{ contact.mobile.name }}
+      {{ contact.mobile.name }}:
       {{ contact.mobile.number }}
       <br />
-      {{ contact.phone.name }}
+      {{ contact.phone.name }}:
       {{ contact.phone.number }}
       <br />
-      {{ contact.email.name }}
+      {{ contact.email.name }}:
       <a href="mailto:{{ contact.email.email }}">
         {{ contact.email.email }}
       </a>
