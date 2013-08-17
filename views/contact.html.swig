@@ -1,33 +1,30 @@
 <section id="contact" class="row">
   <div class="col-lg-2">
-    <h3>{{ contact.imprint }}</h3>
+    {% if language == 'de' %}
+    <h3>Impressum <small>Kontakt</small></h3>
+    {% else %}
+    <h3>Imprint <small>Contact</small></h3>
+    {% endif %}
     <address>
-      <strong>
-        {{ contact.firstName }}
-        {{ contact.lastName }}
-      </strong>
+      <strong>Sabine Kaiser</strong>
       <br />
-      {{ contact.profession }}
+      {% if language == 'de' %}Heilpraktikerin{% else %}
+      Natural Health Practitioner{% endif %}
       <br />
-      {{ contact.mobile.name }}:
-      {{ contact.mobile.number }}
+      {% if language == 'de' %}Telefon:{% else %}Phone:{% endif %}
+      <span class="text-right">030 7537100</span>
       <br />
-      {{ contact.phone.name }}:
-      {{ contact.phone.number }}
+      {% if language == 'de' %}Mobil:{% else %}Mobile:{% endif %}
+      <span class="text-right">0172 3265909</span>
       <br />
-      {{ contact.email.name }}:
-      <a href="mailto:{{ contact.email.email }}">
-        {{ contact.email.email }}
-      </a>
+      Email: <a href="mailto:info@longvity.com">info@longvity.com</a>
     </address> 
     <address>
-      <strong>{{ contact.company }}</strong>
+      <strong>Longvity® Center</strong>
       <br />
-      {{ contact.address.street }}
-      {{ contact.address.streetNr }}
+      Geiserichstraße 3
       <br />
-      {{ contact.address.zipcode }}
-      {{ contact.address.city }}
+      12105 Berlin
     </address>
   </div>
   <div class="col-lg-10">
