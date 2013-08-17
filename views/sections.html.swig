@@ -59,7 +59,7 @@
       main focus called "Golden Eyes". We are convinced that the knowledge of 
       the Traditional Chinese Medicine regarding the inner nourishment of the 
       eyes is very useful in creating suitable therapy concepts. If you are 
-      suffering from erious eye-diseases we can offer a complementary 
+      suffering from serious eye-diseases we can offer a complementary 
       treatment course.
       {% endif %}
     </p>
@@ -86,7 +86,7 @@
       {% else %}
       A burn out is the result of a prolonged physical and or psychological 
       strain. Many people - even young ones - succomb to it. This states of 
-      over-excertion manifests itself, for example, in a disturbed sleep, a 
+      over-exertion manifests itself, for example, in a disturbed sleep, a 
       depressed mood with a lack of emotions and just sterotyped functioning. 
       To combat this excess we developed efficient strategies which help to 
       recover one`s physical and mental balance. Enjoy this form of 
