@@ -1,5 +1,5 @@
 <section id="contact" class="row">
-  <div class="col-lg-2">
+  <div class="col-xs-6 col-xs-offset-3 col-lg-2">
     {% if language == 'de' %}
     <h3>Impressum <small>Kontakt</small></h3>
     {% else %}
