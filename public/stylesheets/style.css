@@ -3,10 +3,6 @@
     margin-bottom: 60px;
 }
 
-#logo {
-
-}
-
 .pull-down {
     margin-top: 120px;
 }
@@ -17,4 +13,8 @@
 
 .text-justify {
     text-align: justify;
+}
+
+.navbar {
+    background-color: #FFF;
 }
