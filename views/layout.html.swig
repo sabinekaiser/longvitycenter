@@ -9,13 +9,5 @@
 {% block body %}
   {% block content %}{% endblock %}
   <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-  <script>
-    var latlng = new google.maps.LatLng(52.45032, 13.36912);
-    var map = new google.maps.Map(document.querySelector('#map'), {
-      zoom: 15, center: latlng, mapTypeId: google.maps.MapTypeId.ROADMAP
-    });
-    var marker = new google.maps.Marker({
-      map: map, position: latlng, title: 'LongvityCenter'
-    });
-  </script>
+  <script src="javascripts/maps.js"></script>
 {% endblock %}
