@@ -1,5 +1,5 @@
 <section id="contact" class="row">
-  <div class="col-xs-6 col-xs-offset-3 col-lg-2">
+  <div class="col-xs-6 col-xs-offset-3 col-lg-3">
     {% if language == 'de' %}
     <h3>Impressum <small>Kontakt</small></h3>
     {% else %}
@@ -13,18 +13,14 @@
       {% else %}
       Natural Health Practitioner
       {% endif %}
-      <br />
-      <br />
+      <br /><br />
       Geiserichstraße 3
       <br />
       12105 Berlin
+      <br /><br />
+      Phone: 030 7537100
       <br />
-      <br />
-      {% if language == 'de' %}Telefon:{% else %}Phone:{% endif %}
-      030 7537100
-      <br />
-      {% if language == 'de' %}Mobil:{% else %}Mobile:{% endif %}
-      0172 3265909
+      Mobile: 0172 3265909
       <br />
       Email: <a href="mailto:info@longvity.com">info@longvity.com</a>
     </address> 
@@ -38,7 +34,7 @@
     </a>
     {% endif %}
   </div>
-  <div class="col-lg-10">
+  <div class="col-lg-9">
     <div id="map"></div>
   </div>
 </section>
