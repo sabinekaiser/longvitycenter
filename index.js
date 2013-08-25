@@ -2,7 +2,9 @@ var express = require('express');
 
 var app = express();
 
-require('./routes')(app);
-require('./middleware')(app);
+var config = require('./config');
 
-app.listen(process.env.PORT || require('./config').port);
+require('./addons')(app);
+require('./routes')(app);
+
+app.listen(process.env.PORT || config.port);
