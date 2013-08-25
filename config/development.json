@@ -4,6 +4,12 @@
  
     "mongodb": {
         "url": "mongodb://localhost/longvity"
+    },
+
+    "mongoose": {
+        "db": {
+            "safe": true
+        }
     }
 
 }

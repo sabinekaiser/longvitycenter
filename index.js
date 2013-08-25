@@ -5,6 +5,7 @@ var app = express();
 var config = require('./config');
 
 require('./addons')(app);
+require('./models')(app);
 require('./routes')(app);
 
 app.listen(process.env.PORT || config.port);

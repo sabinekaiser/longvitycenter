@@ -4,6 +4,8 @@
 
     "index": "object",
 
-    "legal": "object"
+    "legal": "object",
+
+    "language": "string"
 
 }
