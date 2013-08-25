@@ -1,5 +1,5 @@
 <section id="contact" class="row">
-  <div class="col-xs-6 col-xs-offset-3 col-lg-3">
+  <div class="col-xs-6 col-xs-offset-3 col-md-3">
     {% if language == 'de' %}
     <h3>Impressum <small>Kontakt</small></h3>
     {% else %}
@@ -34,7 +34,7 @@
     </a>
     {% endif %}
   </div>
-  <div class="col-lg-9">
+  <div class="col-md-9">
     <div id="map"></div>
   </div>
 </section>

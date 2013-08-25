@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar navbar-default" role="navigation">
   <ul class="navbar-nav nav">
     {% if language == 'en' %}
     <li class="active"><a href="/en">EN</a></li>

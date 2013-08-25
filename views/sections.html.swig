@@ -1,5 +1,5 @@
 <section id="sections" class="row">
-  <div class="col-lg-4 fill">
+  <div class="col-md-4 fill">
     <h3 class="text-center">
       {% if language == 'de' %}
       Chronische Beschwerden
@@ -28,7 +28,7 @@
       {% endif %}
     </p>
   </div>
-  <div class="col-lg-4 fill">
+  <div class="col-md-4 fill">
     <h3 class="text-center">
       {% if language == 'de' %}
       Goldene Augen
@@ -64,7 +64,7 @@
       {% endif %}
     </p>
   </div>
-  <div class="col-lg-4 fill">
+  <div class="col-md-4 fill">
     <h3 class="text-center">
       {% if language == 'de' %}
       Burn-Out Syndrom
