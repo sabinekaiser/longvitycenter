@@ -15,7 +15,21 @@
     text-align: justify;
 }
 
-.navbar {
+nav.navbar {
     background-color: #FFF;
     border: none;
+}
+
+footer.navbar {
+    margin-bottom: 0;
+    background-color: #888;
+    border: none;
+}
+
+footer.navbar a {
+    color: #CCC;
+}
+
+footer.navbar a:hover {
+    color: #FFF;
 }

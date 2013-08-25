@@ -7,4 +7,5 @@
   {% include 'sections.html.swig' %}
   {% include 'contact.html.swig' %}
 </div>
+{% include 'footer.html.swig' %}
 {% endblock %}
