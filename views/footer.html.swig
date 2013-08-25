@@ -13,13 +13,17 @@
     <li><a href="/de/privacy">Datenschutz</a></li>
   </ul>
   <ul class="col-md-3 list-unstyled">
-    <li class="title">Social</li>
+    <li class="title">Partner</li>
+    <li><a href="#">Longvity® Center</a></li>
+    <li><a href="#">Longvity® Beauty</a></li>
   </ul>
   <ul class="col-md-3 list-unstyled">
-    <li class="title">Partner</li>
+    <li class="title">Social</li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">Facebook</a></li>
   </ul>
   {% else %}
-  <ul class="col-md-3 col-md-offset-3 list-unstyled">
+  <ul class="col-md-3 list-unstyled">
     <li class="title">Navigation</li>
     <li><a href="#main">Home</a></li>
     <li><a href="#sections">Priorities</a></li>
@@ -31,11 +35,15 @@
     <li><a href="/en/privacy">Privacy Policy</a></li>
   </ul> 
   <ul class="col-md-3 list-unstyled">
-    <li class="title">Social</li>
+    <li class="title">Partner</li>
+    <li><a href="#">Longvity® Center</a></li>
+    <li><a href="#">Longvity® Beauty</a></li>
   </ul>
   <ul class="col-md-3 list-unstyled">
-    <li class="title">Partner</li>
+    <li class="title">Social</li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">Facebook</a></li>
   </ul>
-  </div>
   {% endif %}
+  </div>
 </footer>
