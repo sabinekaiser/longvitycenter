@@ -1,10 +1,6 @@
 <section id="contact" class="row">
   <div class="col-xs-6 col-xs-offset-3 col-md-3">
-    {% if language == 'de' %}
-    <h3>Kontakt</h3>
-    {% else %}
-    <h3>Contact</h3>
-    {% endif %}
+    <h3>{{ index.contact.name }}</h3>
     <address>
       <strong>Longvity® Center</strong>
       <br /><br />
