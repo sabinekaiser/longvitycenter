@@ -19,6 +19,6 @@
         "url": "https://github.com/bodokaiser/longvity/issues"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "node index.js"
     }
 }
