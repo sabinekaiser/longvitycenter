@@ -9,8 +9,8 @@
   </ul>
   <ul class="col-md-3 list-unstyled">
     <li class="title">Resourcen</li>
-    <li><a href="/de/imprint">Impressum</a></li>
-    <li><a href="/de/privacy">Datenschutz</a></li>
+    <li><a href="/de/legal#imprint">Impressum</a></li>
+    <li><a href="/de/legal#privacy">Datenschutz</a></li>
   </ul>
   <ul class="col-md-3 list-unstyled">
     <li class="title">Partner</li>
@@ -19,8 +19,7 @@
   </ul>
   <ul class="col-md-3 list-unstyled">
     <li class="title">Social</li>
-    <li><a href="#">Twitter</a></li>
-    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Folgt...</a></li>
   </ul>
   {% else %}
   <ul class="col-md-3 list-unstyled">
@@ -31,8 +30,8 @@
   </ul>
   <ul class="col-md-3 list-unstyled">
     <li class="title">Resources</li>
-    <li><a href="/en/imprint">Imprint</a></li>
-    <li><a href="/en/privacy">Privacy Policy</a></li>
+    <li><a href="/en/legal#imprint">Imprint</a></li>
+    <li><a href="/en/legal#privacy">Privacy Policy</a></li>
   </ul> 
   <ul class="col-md-3 list-unstyled">
     <li class="title">Partner</li>
@@ -41,8 +40,7 @@
   </ul>
   <ul class="col-md-3 list-unstyled">
     <li class="title">Social</li>
-    <li><a href="#">Twitter</a></li>
-    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Comming soon...</a></li>
   </ul>
   {% endif %}
   </div>

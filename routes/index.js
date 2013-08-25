@@ -1,11 +1,15 @@
 module.exports = function(app) {
 
-    app.all('/', function(req, res) {
+    app.get('/', function(req, res) {
         res.redirect('/de');
     });
 
-    app.all('/:language', function(req, res) {
+    app.get('/:language', function(req, res) {
         res.render('index', { language: req.params.language });
+    });
+
+    app.get('/:langauge/legal', function(req, res) {
+        res.render('legal', { language: req.params.language });
     });
 
 };
