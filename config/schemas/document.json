@@ -2,10 +2,12 @@
 
     "title": "string",
 
+    "language": "string",
+
     "index": "object",
 
     "legal": "object",
 
-    "language": "string"
+    "footer": "array"
 
 }
