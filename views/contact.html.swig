@@ -1,18 +1,12 @@
 <section id="contact" class="row">
   <div class="col-xs-6 col-xs-offset-3 col-md-3">
     {% if language == 'de' %}
-    <h3>Impressum <small>Kontakt</small></h3>
+    <h3>Kontakt</h3>
     {% else %}
-    <h3>Imprint <small>Contact</small></h3>
+    <h3>Contact</h3>
     {% endif %}
     <address>
-      <strong>Sabine Kaiser</strong>
-      <br />
-      {% if language == 'de' %}
-      Heilpraktikerin
-      {% else %}
-      Natural Health Practitioner
-      {% endif %}
+      <strong>Longvity® Center</strong>
       <br /><br />
       Geiserichstraße 3
       <br />
@@ -24,15 +18,6 @@
       <br />
       Email: <a href="mailto:info@longvity.com">info@longvity.com</a>
     </address> 
-    {% if language == 'de' %}
-    <a href="http://www.google.com/intl/de/policies/privacy/">
-      Datenschutzerklärung Google
-    </a>
-    {% else %}
-    <a href="http://www.google.com/intl/en/policies/privacy/">
-      Privacy Policy Google
-    </a>
-    {% endif %}
   </div>
   <div class="col-md-9">
     <div id="map"></div>

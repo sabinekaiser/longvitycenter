@@ -15,7 +15,29 @@
     text-align: justify;
 }
 
-.navbar {
+nav.navbar {
     background-color: #FFF;
     border: none;
+}
+
+footer.navbar {
+    padding: 20px 0;
+    margin-bottom: 0;
+    background-color: #666;
+    border: none;
+}
+
+footer.navbar li.title {
+    margin-bottom: 10px;
+    color: #DDD;
+    font-size: 20px;
+}
+
+footer.navbar a {
+    color: #AAA;
+    font-size: 16px;
+}
+
+footer.navbar a:hover {
+    color: #FFF;
 }
