@@ -4,9 +4,14 @@ var config = require('../config');
 
 var DocumentSchema = new mongoose.Schema(config.schemas.document);
 
-DocumentSchema.path('index').set(normalize);
-DocumentSchema.path('legal').set(normalize);
-DocumentSchema.path('language').unique();
+DocumentSchema.index({ language: 1 }, { unique: true });
+
+DocumentSchema.paths.index.set(normalize);
+DocumentSchema.paths.legal.set(normalize);
+
+DocumentSchema.statics.findByLanguage = function(language, callback) {
+    return this.findOne().where('language').equals(language).exec(callback);
+};
 
 module.exports = mongoose.model('Document', DocumentSchema);
 
