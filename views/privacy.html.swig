@@ -1,5 +1,5 @@
 <section id="privacy">
-  <div class="col-md-8 col-md-offset-2">
+  <div class="col-md-8 col-md-offset-2 fill">
     {% if language == 'de' %}
     <h3>Datenschutzerklärung</h3>
     {% else %}
