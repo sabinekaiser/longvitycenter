@@ -1,6 +1,6 @@
 {
     "name": "longvity",
-    "version": "0.0.0-8",
+    "version": "0.0.1",
     "author": "Bodo Kaiser <i@bodokaiser.io>",
     "description": "homepage for longvity",
     "subdomain": "longvity",
@@ -8,8 +8,8 @@
         "node": "0.10.x"
     },
     "dependencies": {
-        "express": "3.3.4",
-        "swig": "1.0.0-pre1"
+        "express": "3.3.5",
+        "swig": "1.0.0-pre3"
     },
     "repository": {
         "type": "git",
