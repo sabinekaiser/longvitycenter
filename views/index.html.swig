@@ -5,7 +5,7 @@
 <div class="container">
   <section id="main" class="row">
     <div class="col-md-8 col-md-offset-2 pull-down fill">
-      <img id="logo" src="images/logo.svg" />
+      <img id="logo" src="/images/logo.svg" />
       <p class="lead text-center">{{ lead }}</p>
     </div>
   </section>
@@ -19,7 +19,7 @@
   </section>
   <section id="contact" class="row">
     <div class="col-xs-6 col-xs-offset-3 col-md-3">
-      <h3>{{ contact.name }}</h3>
+      <h3>{{ dictionary.contact }}</h3>
       <address>
         <strong>Longvity® Center</strong>
         <br /><br />

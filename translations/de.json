@@ -19,19 +19,15 @@
         }
     ],
     
-    "contact" : {
-        "name" : "Kontakt"
-    },
-	
-    "footer": {
-        "navigation": {
-            "title": "Navigation",
-            "links": ["Startseite", "Schwerpunkte", "Kontakt"]
-        },
-        "resources": {
-            "title": "Ressourcen",
-            "links": ["Impressum", "Datenschutz"]
-        }
+    "dictionary": {
+        "home": "Startseite",
+        "priorities": "Schwerpunkte",
+        "contact": "Kontakt",
+        "navigation": "Navigation",
+        "resources": "Ressourcen",
+        "imprint": "Impressum",
+        "privacy": "Datenschutz",
+        "privacyPolicy": "Datenschutzerklärung"
     }
 
 }
