@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="761.46527"
+   height="228.99902"
+   viewBox="0 0 609.17222 183.19922"
+   version="1.1"
+   id="svg3095"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="logo.svg">
+  <metadata
+     id="metadata3113">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3111">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 114.49951 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="761.46527 : 114.49951 : 1"
+       inkscape:persp3d-origin="380.73264 : 76.333008 : 1"
+       id="perspective3061" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1398"
+     inkscape:window-height="840"
+     id="namedview3109"
+     showgrid="false"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20"
+     fit-margin-top="20"
+     inkscape:zoom="1.28"
+     inkscape:cx="353.57346"
+     inkscape:cy="107.21961"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3095" />
+  <g
+     id="surface2"
+     transform="translate(-6.4492188,-53.699219)">
+    <path
+       style="fill:#8cbd30;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 22.449219,146.35156 c 1.765625,9.4336 4.167969,17.33203 7.199219,23.69922 3.066406,6.36719 6.636718,11.5 10.703124,15.39844 4.066407,3.93359 8.5,6.94922 13.296876,9.05078 4.835937,2.13281 9.886718,3.66797 15.152343,4.60156 5.300781,0.9336 10.699219,1.58203 16.199219,1.94922 5.464844,0.39844 10.917969,0.83203 16.35156,1.30078 5.4336,0.46485 10.6836,1.28125 15.75,2.44922 5.06641,1.16406 9.83203,3.01563 14.29688,5.55078 4.46875,2.53125 8.5,6.04688 12.10156,10.54688 -2.80078,-8.06641 -5.91797,-14.75 -9.35156,-20.04688 -3.46485,-5.33594 -7.23047,-9.63672 -11.29688,-12.90234 -4.03515,-3.26563 -8.36718,-5.84766 -13,-7.75 -4.63672,-1.89844 -9.53515,-3.44922 -14.703122,-4.64844 -5.164063,-1.23437 -10.566407,-2.46875 -16.199219,-3.69922 -5.664063,-1.20312 -11.53125,-2.76953 -17.597657,-4.70312 -6.101562,-1.9336 -12.402343,-4.53125 -18.902343,-7.79688 -6.464844,-3.30078 -13.132813,-7.63672 -20,-13"
+       id="path3098"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#197061;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 37.5,104.25 c 0.433594,8.93359 1.617188,16.51563 3.550781,22.75 1.898438,6.23437 4.398438,11.39844 7.5,15.5 3.132813,4.13281 6.699219,7.48437 10.699219,10.05078 4,2.59766 8.300781,4.71484 12.898438,6.34766 4.636718,1.63672 9.402343,3.0664 14.300781,4.30078 4.933593,1.26562 9.882812,2.61719 14.851561,4.05078 4.96485,1.43359 9.80078,3.25 14.5,5.44922 4.73438,2.19922 9.16406,5.08594 13.30078,8.65234 4.16406,3.53125 7.91406,8.03125 11.25,13.5 -1.13672,-9.40234 -2.98437,-17.41797 -5.55078,-24.05078 -2.56641,-6.60156 -5.68359,-12.11719 -9.35156,-16.55078 -3.69922,-4.43359 -7.80078,-8.11719 -12.30078,-11.05078 -4.53125,-2.89844 -9.33203,-5.36719 -14.39844,-7.39844 -5.066406,-2 -10.265625,-3.88281 -15.601562,-5.65234 -5.332032,-1.79688 -10.664063,-3.76563 -16,-5.89844 -5.296876,-2.16797 -10.464844,-4.83203 -15.5,-8 -5,-3.16797 -9.714844,-7.16797 -14.148438,-12"
+       id="path3100"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#5c3351;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       d="m 71.601562,69.699219 c -0.96875,7.902343 -1.019531,14.71875 -0.152343,20.449219 0.902343,5.734374 2.5,10.617192 4.800781,14.652342 2.300781,4.03125 5.101562,7.5 8.398438,10.39844 3.300781,2.86719 6.886718,5.41797 10.75,7.65234 3.867187,2.23047 7.816402,4.41407 11.851562,6.54688 4.03516,2.10156 7.94922,4.41797 11.75,6.95312 3.76563,2.5 7.19922,5.46485 10.30078,8.89844 3.06641,3.43359 5.59766,7.58203 7.59766,12.44922 -0.16407,-8.83203 -1.13282,-16.46485 -2.89844,-22.89844 -1.80078,-6.40234 -4.19922,-11.90234 -7.19922,-16.5 -2.96875,-4.5664 -6.33594,-8.51562 -10.10156,-11.85156 -3.80078,-3.33203 -7.76563,-6.34766 -11.89844,-9.050782 C 100.66797,94.734375 96.566406,92.082031 92.5,89.449219 88.433594,86.851562 84.601562,83.964844 81,80.800781 77.433594,77.667969 74.300781,73.964844 71.601562,69.699219"
+       id="path3102"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     id="surface4"
+     transform="translate(-7.2145017,-75.924099)"
+     style="fill:#197061;fill-opacity:1">
+    <text
+       style="font-size:44px;fill:#197061;font-family:Helvetica;fill-opacity:1"
+       font-size="44"
+       id="text3105"
+       x="152.10001"
+       y="179.45004">
+      <tspan
+         id="tspan3115"
+         style="font-size:56px;fill:#197061;fill-opacity:1">Longvity<tspan
+   id="tspan3835"
+   style="font-size:52.00042724999999422%;baseline-shift:super;fill:#197061;fill-opacity:1">®</tspan>
+ Beauty</tspan>
+    </text>
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:32px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#197061;fill-opacity:1;stroke:none;font-family:Sans"
+     x="172.08737"
+     y="147.00978"
+     id="text3063"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3065"
+       x="172.08737"
+       y="147.00978"
+       style="font-size:27.20000076000000178px;fill:#197061;font-family:Helvetica;-inkscape-font-specification:Helvetica;fill-opacity:1">2000 Jahre Kultur der Schönheit</tspan></text>
+</svg>
