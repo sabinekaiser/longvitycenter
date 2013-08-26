@@ -2,8 +2,6 @@ var config = require('./environment');
 
 var environment = process.env.NODE_ENV || 'development';
 
-require('./schemas')(config);
-
 if (environment == 'development') 
     merge(config, require('./development'));
 

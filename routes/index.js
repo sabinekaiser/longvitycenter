@@ -1,30 +1,28 @@
-var mongoose = require('mongoose');
+var trans = require('../translations');
 
 module.exports = function(app) {
-
-    var Document = mongoose.model('Document');
 
     app.get('/', function(req, res) {
         res.redirect('/de');
     });
 
-    app.get('/:language', function(req, res) {
-        res.render('index', req.document);
+    app.get('/:language', loadTranslation, function(req, res) {
+        res.render('index', req.translation);
     });
-
-    app.get('/:language/legal', function(req, res) {
-        res.render('index', req.document);
-    });
-
-    app.param('language', function(req, res, next, lang) {
-        Document.findByLanguage(lang, function(err, document) {
-            if (err) return next(err);
-            if (!document) return res.send(404);
-
-            req.document = document;
-
-            next();
-        });
+    
+    app.get('/:language/legal', loadTranslation, function(req, res) {
+        res.render('legal', req.translation);
     });
 
 };
+
+function loadTranslation(req, res, next) {
+    var language = req.params.language;
+
+    if (trans.hasOwnProperty(language))
+        req.translation = trans[language];
+    else
+        req.translation = trans.en;
+
+    next();
+}

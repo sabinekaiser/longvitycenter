@@ -6,11 +6,11 @@
   <section id="main" class="row">
     <div class="col-md-8 col-md-offset-2 pull-down fill">
       <img id="logo" src="images/logo.svg" />
-      <p class="lead text-center">{{ index.main }}</p>
+      <p class="lead text-center">{{ lead }}</p>
     </div>
   </section>
   <section id="sections" class="row">
-    {% for section in index.sections %}
+    {% for section in sections %}
     <div class="col-md-4 fill">
       <h3 class="text-center">{{ section.name }}</h3>
       <p class="text-justify">{{ section.body }}</p>
@@ -19,7 +19,7 @@
   </section>
   <section id="contact" class="row">
     <div class="col-xs-6 col-xs-offset-3 col-md-3">
-      <h3>{{ index.contact.name }}</h3>
+      <h3>{{ contact.name }}</h3>
       <address>
         <strong>Longvity® Center</strong>
         <br /><br />
