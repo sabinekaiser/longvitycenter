@@ -1,0 +1,34 @@
+{
+
+	"language" : "en",
+
+    "lead" : "The Longvity Center is a Natural Health Healing Center. Following the Art of Longvity means blending the most effectiv strategies of Oriental Medicine with a today`s deep rooted  medical understanding in order to meet the medical challenges of nowadays. Our aim is to achieve a maximum of health improvement for every patient in an effective and intelligent way. This has been our dedication since almost 25 years.",
+		
+    "sections" : [
+        {
+            "name" : "Chronic Diseases",
+            "body" : "If you suffer from chronic stressful complaints you should not give up. Migraines, other sorts of headaches, back-problems, chronic other pain conditions, chronic joint problems and a lots of other chronic conditions - these are just examples - are worth being revised through our holistic diagnostic scheme and treatment concepts. To meet complicated health conditions and their demands we developed our Longvity-Case-Management-System. Call us for an appointment."
+        },
+        {
+            "name" : "Golden Eyes",
+            "body" : "We life more then ever in a strong visually focused environment. This exhausts the visual sense. Additionally, from a holistic point of view there are interactions between certain health complaints and the inner nourishment of the eyes. We are alerted by noticing the increase of serious eye diseases in the last decades. These reasons let us develop a main focus called \"Golden Eyes\". We are convinced that the knowledge of the Traditional Chinese Medicine regarding the inner nourishment of the eyes is very useful in creating suitable therapy concepts. If you are suffering from serious eye-diseases we can offer a complementary treatment course."
+        },
+        {
+            "name" : "Burn-Out Syndrome",
+            "body" : "A burn out is the result of a prolonged physical and or psychological strain. Many people - even young ones - succomb to it. This states of over-exertion manifests itself, for example, in a disturbed sleep, a depressed mood with a lack of emotions and just sterotyped functioning. To combat this excess we developed efficient strategies which help to recover one`s physical and mental balance. Enjoy this form of regeneration."
+        }
+    ],
+ 
+    "dictionary": {
+        "home": "Home",
+        "priorities": "Priorities",
+        "contact": "Contact",
+        "navigation": "Navigation",
+        "resources": "Resources",
+        "imprint": "Imprint",
+        "privacy": "Privacy",
+        "privacyPolicy": "Privacy Policy"
+    }
+
+}
+
