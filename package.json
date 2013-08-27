@@ -4,6 +4,12 @@
     "author": "Bodo Kaiser <i@bodokaiser.io>",
     "description": "homepage for longvity",
     "subdomain": "longvity",
+    "domains": [
+        "longvity.de",
+        "*.longvity.de",
+        "longvitycenter.com",  
+        "*.longvitycenter.com"
+    ],
     "engines": {
         "node": "0.10.x"
     },
