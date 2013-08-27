@@ -25,7 +25,7 @@
         <br /><br />
         Geiserichstraße 3, 12105 Berlin
         <br /><br />
-        Phone: 030 7537100
+        {{ dictionary.phone }}: 030 7537100
         <br />
         Mobile: 0172 3265909
         <br />
