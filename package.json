@@ -1,13 +1,13 @@
 {
     "name": "longvity",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "author": "Bodo Kaiser <i@bodokaiser.io>",
     "description": "homepage for longvity",
     "subdomain": "longvity",
     "domains": [
         "longvity.de",
         "*.longvity.de",
-        "longvitycenter.com",  
+        "longvitycenter.com",
         "*.longvitycenter.com"
     ],
     "engines": {
