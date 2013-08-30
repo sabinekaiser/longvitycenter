@@ -1,12 +1,12 @@
 {% extends 'base.html.swig' %}
 
 {% block head %}
-<title>Longvity</title>
+<title>Longvity® Center Berlin - 2000 Jahre Kultur des Heilens</title>
 <meta charset="utf-8" />
 <meta name="author" content="Sabine Kaiser" />
 <meta name="robots" content="index, nofollow" />
 <meta name="keywords" content="Naturheilpraxis, Heilpraktiker, TCM, Traditionelle Chinesische Medizin, Berlin, Longvity, Longvity Center" />
-<meta name="description" content="Naturheilpraxis mit Schwerpunkt Traditioneller Chinesischer Medizin in Berlin" />
+<meta name="description" content="Naturheilpraxis Longvity® Center mit Schwerpunkt Traditioneller Chinesischer Medizin in Berlin" />
 <meta name="google-site-verification" content="bpBcc_AQr4mP8PB0irgwS405WnYQYdUm2zluVdWY2rc" />
 <link rel="stylesheet" href="/stylesheets/bootstrap.css" />
 <link rel="stylesheet" href="/stylesheets/style.css" />
