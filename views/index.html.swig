@@ -29,7 +29,9 @@
         <br />
         Mobile: 0172 3265909
         <br />
-        Email: <a href="mailto:info@longvity.com">info@longvity.com</a>
+        Email: <a href="mailto:info@longvitycenter.com">
+          info@longvitycenter.com
+        </a>
       </address> 
     </div>
     <div class="col-md-9">

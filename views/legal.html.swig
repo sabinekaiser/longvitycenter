@@ -30,7 +30,9 @@
         <br />
         {{ dictionary.phone }}: 030/7537100
         <br />
-        E-Mail: <a href="mailto:info@longvity.com">info@longvity.com</a>
+        E-Mail: <a href="mailto:info@longvitycenter.com">
+          info@longvitycenter.com
+        </a>
       </address>
     </div>
   </section>
