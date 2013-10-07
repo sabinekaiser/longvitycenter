@@ -4,13 +4,13 @@
       <li class="title">
         {{ site.translations.[page.language].navigation }}
       </li>
-      <li><a href="/{{ page.language }}/#home">
+      <li><a href="{{ page.base_url }}/{{ page.language }}/#home">
         {{ site.translations.[page.language].home }}
       </a></li>
-      <li><a href="/{{ page.language }}/#sections">
+      <li><a href="{{ page.base_url }}/{{ page.language }}/#sections">
         {{ site.translations.[page.language].priorities }}
       </a></li>
-      <li><a href="/{{ page.language }}/#contact">
+      <li><a href="{{ page.base_url }}/{{ page.language }}/#contact">
         {{ site.translations.[page.language].contact }}
       </a></li>
     </ul>
@@ -18,11 +18,11 @@
       <li class="title">
         {{ site.translations.[page.language].resources }}
       </li>
-      <li><a href="/{{ page.language }}/legal#imprint">
+      <li><a href="{{ page.base_url }}/{{ page.language }}/legal#imprint">
         {{ site.translations.[page.language].imprint }}
       </a></li>
-      <li><a href="/{{ page.language }}/legal#privacy">
-        {{ site.translations.[page.language]..privacy }}
+      <li><a href="{{ page.base_url }}/{{ page.language }}/legal#privacy">
+        {{ site.translations.[page.language].privacy }}
       </a></li>
     </ul>
     <ul class="col-md-3 list-unstyled">

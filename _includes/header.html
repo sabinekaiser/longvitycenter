@@ -1,14 +1,14 @@
 <nav class="navbar navbar-default" role="navigation">
   <ul class="navbar-nav nav">
     {% if page.language == 'en' %}
-    <li class="active"><a href="/en{{ page.fragment }}">EN</a></li>
+    <li class="active"><a href="{{ page.base_url }}/en{{ page.fragment }}">EN</a></li>
     {% else %}
-    <li><a href="/en{{ page.fragment }}">EN</a></li>
+    <li><a href="{{ page.base_url }}/en{{ page.fragment }}">EN</a></li>
     {% endif %}
     {% if page.language == 'de' %}
-    <li class="active"><a href="/de{{ page.fragment }}">DE</a></li>
+    <li class="active"><a href="{{ page.base_url }}/de{{ page.fragment }}">DE</a></li>
     {% else %}
-    <li><a href="/de{{ page.fragment }}">DE</a></li>
+    <li><a href="{{ page.base_url }}/de{{ page.fragment }}">DE</a></li>
     {% endif %}
   </ul>
 </nav>
