@@ -50,3 +50,7 @@ node_modules
 # dependend sources #
 #####################
 build
+
+# generated files #
+###################
+_site

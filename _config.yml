@@ -1,0 +1,19 @@
+title: "Longvity® Center Berlin"
+
+translations:
+    en:
+        navigation: "Navigation"
+        resources: "Resources"
+        home: "Home"
+        priorities: "Priorities"
+        contact: "Contact"
+        imprint: "Imprint"
+        privacy: "Privacy"
+    de:
+        navigation: "Navigation"
+        resources: "Ressourcen"
+        home: "Home"
+        priorities: "Schwerpunkte"
+        contact: "Kontakt"
+        imprint: "Impressum"
+        privacy: "DatDatenschutz"

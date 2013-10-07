@@ -1,15 +1,29 @@
 <footer class="navbar navbar-static-bottom">
   <div class="col-md-8 col-md-offset-2">
     <ul class="col-md-3 list-unstyled">
-      <li class="title">Navigation</li>
-      <li><a href="/{{ language }}/#home">Home</a></li>
-      <li><a href="/{{ language }}/#sections">Schwerpunkte</a></li>
-      <li><a href="/{{ language }}/#contact">Kontakt</a></li>
+      <li class="title">
+        {{ site.translations.[page.language].navigation }}
+      </li>
+      <li><a href="/{{ page.language }}/#home">
+        {{ site.translations.[page.language].home }}
+      </a></li>
+      <li><a href="/{{ page.language }}/#sections">
+        {{ site.translations.[page.language].priorities }}
+      </a></li>
+      <li><a href="/{{ page.language }}/#contact">
+        {{ site.translations.[page.language].contact }}
+      </a></li>
     </ul>
     <ul class="col-md-3 list-unstyled">
-      <li class="title">Resourcen</li>
-      <li><a href="/{{ language }}/legal#imprint">Impressum</a></li>
-      <li><a href="/{{ language }}/legal#privacy">Datenschutz</a></li>
+      <li class="title">
+        {{ site.translations.[page.language].resources }}
+      </li>
+      <li><a href="/{{ page.language }}/legal#imprint">
+        {{ site.translations.[page.language].imprint }}
+      </a></li>
+      <li><a href="/{{ page.language }}/legal#privacy">
+        {{ site.translations.[page.language]..privacy }}
+      </a></li>
     </ul>
     <ul class="col-md-3 list-unstyled">
       <li class="title">Partner</li>
