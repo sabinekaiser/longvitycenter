@@ -1,5 +1,10 @@
+# global variables #
 title: "Longvity® Center Berlin"
 
+# jekyll configuration #
+permalink: pretty
+
+# translation variables #
 translations:
     en:
         navigation: "Navigation"
