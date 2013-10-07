@@ -4,7 +4,8 @@ Website of Longvity.
 
 ## Dependencies
 
-* **node** - `0.10.x`
+* **ruby** - `2.0.x`
+* **jekyll** - `1.0.x`
 
 ## Installation
 
@@ -12,13 +13,13 @@ Clone with [git(1)](http://help.github.com):
 
     $ git clone https://github.com/bodokaiser/longvity
 
-Install dependencies with [npm(1)](http://npmjs.org):
+Install `jekyll` with [gem(1)](http://rubygems.org):
 
-    $ cd longvity && npm install
+    $ cd longvity && gem install jekyll
 
-And execute `index.js` with [node(1)](http://nodejs.org)
+And call [jekyll(1)](http://jekyllrb.com)
 
-    $ node index.js
+    $ jekyll serve
 
 ## License
 
