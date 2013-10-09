@@ -3,11 +3,18 @@ layout: default
 base_url: ../..
 fragment: /blog
 ---
-{% for post in site.categories.[page.language] %}
-  <div class="row">
-    <article class="col-md-8 col-md-offset-2">
-    {{ post.content }}
-    </article>
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <img id="logo" src="{{ page.base_url }}/images/center.svg" />
   </div>
-{% endfor %}
-<div style="height: 700px;"></div>
+  {% for post in site.categories.[page.language] %}
+    <div class="row">
+      <article class="col-md-8 col-md-offset-2">
+        <h2 class="text-center">{{ post.title }}</h2>
+        <h4 class="text-center">{{ post.date | date_to_long_string }}</h2>
+        <div class="text-center">{{ post.content }}</div>
+      </article>
+    </div>
+  {% endfor %}
+  <div style="height: 700px;"></div>
+</div>
