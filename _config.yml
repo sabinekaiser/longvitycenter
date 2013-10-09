@@ -12,6 +12,7 @@ translations:
         home: "Home"
         priorities: "Priorities"
         contact: "Contact"
+        blog: "Blog"
         imprint: "Imprint"
         privacy: "Privacy"
     de:
@@ -20,5 +21,6 @@ translations:
         home: "Home"
         priorities: "Schwerpunkte"
         contact: "Kontakt"
+        blog: "Blog"
         imprint: "Impressum"
         privacy: "Datenschutz"

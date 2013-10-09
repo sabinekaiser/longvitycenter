@@ -1,0 +1,13 @@
+---
+layout: default
+base_url: ../..
+fragment: /blog
+---
+{% for post in site.categories.[page.language] %}
+  <div class="row">
+    <article class="col-md-8 col-md-offset-2">
+    {{ post.content }}
+    </article>
+  </div>
+{% endfor %}
+<div style="height: 700px;"></div>
