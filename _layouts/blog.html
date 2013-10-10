@@ -4,17 +4,20 @@ base_url: ../..
 fragment: /blog
 ---
 <div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    <img id="logo" src="{{ page.base_url }}/images/center.svg" />
+  <div class="text-center">
+    <h2>Longvity® Center Blog</h2>
+    <h4>Sty informed about latest tricks!</h4>
   </div>
-  {% for post in site.categories.[page.language] %}
-    <div class="row">
-      <article class="col-md-8 col-md-offset-2">
-        <h2 class="text-center">{{ post.title }}</h2>
-        <h4 class="text-center">{{ post.date | date_to_long_string }}</h2>
-        <div class="text-center">{{ post.content }}</div>
-      </article>
-    </div>
-  {% endfor %}
-  <div style="height: 700px;"></div>
 </div>
+{% for post in site.categories.[page.language] %}
+  <div class="row">
+    <article class="col-md-8 col-md-offset-2">
+      <h5>{{ post.title }}</h5>
+      <h6>{{ post.date | date_to_long_string }}</h6>
+      <div class="text-justify">
+        {{ post.content }}
+      </div>
+    </article>
+  </div>
+{% endfor %}
+<div style="height: 700px;"></div>
