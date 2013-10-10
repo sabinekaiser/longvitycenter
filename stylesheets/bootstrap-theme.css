@@ -19,12 +19,12 @@ p {
     margin-bottom: 60px;
 }
 
-.pull-down {
-    margin-top: 120px;
+.lead {
+    color: #444;
 }
 
-.fill {
-    padding-bottom: 80px;
+.pull-down {
+    margin-top: 120px;
 }
 
 .text-justify {
