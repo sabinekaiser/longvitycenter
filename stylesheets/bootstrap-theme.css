@@ -19,6 +19,11 @@ p {
     margin-bottom: 60px;
 }
 
+.fill {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 .lead {
     color: #444;
 }
